@@ -8,7 +8,7 @@
     "serve":"node lib/app"
   },
   "dependencies": {
-    "@types/node": "^14.14.22",
+    "@types/node": "^16.11.47",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   }

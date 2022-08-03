@@ -1,0 +1,28 @@
+[
+  {
+    "organization": "FlutterWave",
+    "createdAt": "2022-08-02T15:58:15.062Z",
+    "updatedAt": "2022-08-02T16:37:46.579Z",
+    "products": ["developers", "remittance"],
+    "marketValue": "90%",
+    "address": "Victoria Island",
+    "ceo": "GB",
+    "country": "Nigeria",
+    "noOfEmployees": 3,
+    "employees": ["Ox", "Ahmed", "Ozzy"],
+    "id": 5
+  },
+  {
+    "organization": "PayStack",
+    "createdAt": "2022-08-02T16:09:01.487Z",
+    "updatedAt": "2022-08-02T16:09:01.487Z",
+    "products": ["developers", "remittance"],
+    "marketValue": "90%",
+    "address": "Victoria Island",
+    "ceo": "Shola Akinlade",
+    "country": "Nigeria",
+    "noOfEmployees": 3,
+    "employees": ["Ox", "Ahmed", "Ozzy"],
+    "id": 6
+  }
+]
