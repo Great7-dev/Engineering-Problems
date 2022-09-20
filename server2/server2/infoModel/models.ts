@@ -1,3 +1,5 @@
+import { Http2ServerRequest } from "http2";
+
 const cheerio = require("cheerio");
 const http = require("node:https");
 const axios = require("axios");
@@ -7,7 +9,6 @@ interface Result {
   description: string;
   images: string[];
 }
-
 async function getScrapper(url: string) {
   const { data } = await axios.get(url);
   const $ = cheerio.load(data);
@@ -32,10 +33,9 @@ async function getScrapper(url: string) {
         let imgSrc = $(image).attr('src');
         result.images.push(imgSrc);
     })
-  }
+} 
   return result;
 }
-
 module.exports = {
   getScrapper,
 };

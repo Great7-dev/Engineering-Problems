@@ -1,7 +1,7 @@
 const Info = require("../models/infoModels");
 import { IncomingMessage, ServerResponse } from "node:http";
 import { getPostData } from "../utils";
-
+// declear the interface
 interface organizationObject {
   organization: string;
   createdAt: string;
